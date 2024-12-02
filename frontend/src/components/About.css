@@ -1,0 +1,42 @@
+/* Full-page container with centered content */
+.about-container {
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Page header styling */
+  .about-container h1 {
+    font-size: 28px;
+    color:#96528e;
+    margin-bottom: 20px;
+  }
+  
+  /* General text styling */
+  .about-container p {
+    font-size: 20px;
+    color: #121111;
+    line-height: 1.6;
+  }
+  
+  /* Feature section styling */
+  .feature-section {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  /* Feature title styling */
+  .feature-section h2 {
+    font-size: 22px;
+    color: #96528e;
+    margin-bottom: 10px;
+  }
+  
+  .feature-section p {
+    font-size: 20px;
+    color: #121111;
+    line-height: 1.6;
+  }
+  

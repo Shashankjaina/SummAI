@@ -1,0 +1,108 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+} 
+
+ 
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.component-container {
+  margin-top: 30px;
+}
+/* Full-page gradient background */
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("back.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5; /* Adjust opacity for translucency */
+  z-index: -1; /* Place it behind all content */
+}
+/* Centered container with a shadow and padding */
+.container {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: 100%;
+}
+
+/* Navbar styling */
+/* .navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+} */
+
+/* .navbar a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #f28c28;
+} */
+
+/* Logo styling */
+/* .logo img {
+  max-width: 80px;
+  margin-bottom: 20px;
+} */
+
+/* Button styling */
+button {
+  width: 100%;
+  max-width: 250px;
+  padding: 15px 20px;
+  margin: 10px auto;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #2857f2;
+  /* background-image: url(" "); */
+  border: none;
+  display: flex;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #d4741a;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* Margin between components */
+.component-container {
+  margin-top: 20px;
+}
+

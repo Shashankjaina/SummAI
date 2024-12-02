@@ -1,0 +1,18 @@
+/* App.css */
+.navbar {
+  display: flex;
+  gap: 1rem;
+  background-color: #007bff;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
